@@ -88,12 +88,19 @@ Para que el sistema funcione correctamente y los usuarios puedan iniciar sesión
 Usuarios Iniciales
 
 Estos usuarios ya tienen contraseñas protegidas mediante hashing (bcrypt) y pueden ser utilizados para acceder al sistema:
+
 Usuario: juan_perez
+
 Contraseña: PasswordJuan123
+
 Puntaje inicial: 100
+
 Usuario: maria_ruiz
+
 Contraseña: MariaSegura456
+
 Puntaje inicial: 150
+
 
 Paso 2: Configurar el Servidor
 Instalar un servidor web (por ejemplo, XAMPP).
