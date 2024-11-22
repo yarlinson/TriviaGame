@@ -1,0 +1,30 @@
+/* Custom Pastel Colors */
+body {
+    background-color: #fdf7f4;
+}
+.card {
+    background-color: #fff8f0;
+    border: none;
+    border-radius: 12px;
+}
+.card-body {
+    color: #5f5a4e;
+}
+.btn-primary {
+    background-color: #b5c7ed;
+    border-color: #b5c7ed;
+}
+.btn-primary:hover {
+    background-color: #a4b7e3;
+    border-color: #a4b7e3;
+}
+h1 {
+    color: #8e8d8a;
+}
+.form-control {
+    border-radius: 8px;
+}
+label {
+    color: #6b6863;
+}
+
