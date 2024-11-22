@@ -76,6 +76,11 @@ CREATE TABLE respuestas (
     contenido TEXT NOT NULL,
     es_correcta BOOLEAN NOT NULL
 );
+
+INSERT INTO usuarios (username, password, puntaje) VALUES 
+('juan_perez', '$2b$10$EjemploDeHashDeBcrypt1234567890123456789012345', 100), -- Puntaje: 100
+('maria_ruiz', '$2y$10$sG3nB6XQg91CALPp4cwc3unHLOLoqmjgVx8lIGW2lPSxPn1e8OPJK', 150); -- Puntaje: 150
+
 ```
 ## Innstrucciones para Configurar Usuarios Iniciales
 Para que el sistema funcione correctamente y los usuarios puedan iniciar sesión, es necesario insertar cuentas iniciales en la base de datos. Esto permitirá probar el sistema con credenciales predefinidas.
